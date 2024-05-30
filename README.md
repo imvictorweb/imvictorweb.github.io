@@ -4,7 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Víctor Arboleda - Estudiante y Agrónomo</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5em;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+        main {
+            padding: 2em;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+        }
+        form label {
+            margin-bottom: 0.5em;
+        }
+        form input, form textarea {
+            margin-bottom: 1em;
+            padding: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            padding: 0.5em;
+            color: white;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        form button:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -57,3 +128,4 @@
     </footer>
 </body>
 </html>
+
