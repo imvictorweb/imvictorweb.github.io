@@ -1,131 +1,141 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Víctor Arboleda - Estudiante y Agrónomo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #444;
-            color: white;
-            display: flex;
-            justify-content: center;
-            padding: 0.5em;
-        }
-        nav a {
-            color: white;
-            margin: 0 1em;
-            text-decoration: none;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        nav a:hover {
-            background-color: #555;
-            color: #fff;
-        }
-        main {
-            padding: 2em;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        form {
-            display: flex;
-            flex-direction: column;
-            width: 300px;
-            margin: 0 auto;
-        }
-        form label {
-            margin-bottom: 0.5em;
-        }
-        form input, form textarea {
-            margin-bottom: 1em;
-            padding: 0.5em;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        form button {
-            padding: 0.5em;
-            color: white;
-            background-color: #333;
-            border: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        form button:hover {
-            background-color: #555;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Víctor José Arboleda Mina</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 960px; /* Limita el ancho máximo para pantallas grandes */
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center; /* Centra el encabezado */
+      margin-bottom: 20px;
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    h2 {
+      border-bottom: 1px solid #eee; /* Agrega una línea debajo de los títulos h2 */
+      padding-bottom: 5px;
+    }
+
+    p {
+      color: #666;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    blockquote {
+      background: #f9f9f9;
+      border-left: 5px solid #ccc; /* Reduce el ancho de la barra de cita */
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      font-style: italic; /* Pone el texto de la cita en cursiva */
+    }
+    
+    /* Estilos para las listas de publicaciones */
+    ul {
+      list-style: none; /* Elimina los puntos de la lista */
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    li strong {
+      display: block; /* Hace que el título de la publicación ocupe toda la línea */
+      margin-bottom: 5px;
+    }
+
+  </style>
 </head>
 <body>
+  <div class="container">
     <header>
-        <h1>Víctor Arboleda</h1>
-        <nav>
-            <a href="#about">Sobre mí</a>
-            <a href="#research">Investigación</a>
-            <a href="#experience">Experiencia</a>
-            <a href="#contact">Contacto</a>
-        </nav>
+      <h1>Víctor José Arboleda Mina: Un Líder en Desarrollo Rural y Sostenibilidad</h1>
     </header>
-    <main>
-        <section id="about">
-            <h2>Sobre mí</h2>
-            <p>Soy un agrónomo apasionado por el uso de datos y tecnología para mejorar los resultados agrícolas y promover el cambio social y ambiental. Actualmente estudio en la Universidad EARTH y tengo un MBA de la Universidad de Cádiz.</p>
-        </section>
-        <section id="research">
-            <h2>Investigación</h2>
-            <ul>
-                <li>
-                    <strong>Effect of Improved Stoves on Wood Consumption, Particulate Matter and Carbon Monoxide Production in Central America</strong> (Sustainable Energy, agosto 2021)
-                    <p>Este estudio analiza el impacto de las estufas mejoradas en el consumo de leña y la producción de partículas y monóxido de carbono.</p>
-                    <a href="https://www.researchgate.net/publication/351653518_Effect_of_Improved_Stoves_on_Wood_Consumption_Particulate_Matter_and_Carbon_Monoxide_Production_in_Central_America">Leer más</a>
-                </li>
-                <li>
-                    <strong>Small-Scale Regenerative Agriculture and its Effects on the Diet and Health of Peasant Communities in Belize, Honduras, and Panama</strong> (Latin American Conference of Rural Sociology, noviembre 2018)
-                    <p>Investigación sobre cómo la agricultura regenerativa a pequeña escala afecta la dieta y salud de las comunidades campesinas en Belize, Honduras y Panamá.</p>
-                </li>
-            </ul>
-        </section>
-        <section id="experience">
-            <h2>Experiencia</h2>
-            <p>He trabajado en varios roles relacionados con la producción agrícola, análisis de datos y gestión de programas, incluyendo mi trabajo con Sustainable Harvest International y mi puesto actual como Program Assistant en The Ohio State University.</p>
-        </section>
-        <section id="contact">
-            <h2>Contacto</h2>
-            <form action="https://example.com/submit-form" method="post">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Víctor Arboleda. Todos los derechos reservados.</p>
-    </footer>
+    
+    <section>
+      <h2>¿Quién Soy?</h2>
+      </section>
+
+    <section>
+      <h2>Educación y Formación</h2>
+      </section>
+
+    <section>
+      <h2>Estudios Universitarios</h2>
+      </section>
+    
+    <section>
+      <h2>Experiencias Profesionales y Pasantías</h2>
+      </section>
+
+    <section>
+      <h2>Publicaciones</h2>
+      <ul>
+        <li>
+          <strong>"Effect of Improved Stoves on Wood Consumption, Particulate Matter, and Carbon Monoxide Production"</strong>
+          <span>Presentado en Tropentag 2017, Bonn, Alemania.</span>
+          <a href="https://www.tropentag.de/2017/abstracts/full/997.pdf">Leer publicación completa</a>
+          <p>Resumen: Este estudio compara el rendimiento de modelos de estufas mejoradas con estufas tradicionales en términos de consumo de madera, producción de partículas y emisión de monóxido de carbono en Panamá y Honduras. Los resultados mostraron que las estufas mejoradas reducen significativamente el consumo de madera y las emisiones, mejorando así la calidad del aire y la salud de los usuarios.</p>
+        </li>
+        <li>
+          <strong>"Evaluation of Improved Cookstoves in Honduras: Impact on Fuel Consumption and Indoor Air Quality"</strong>
+          <span>Publicado en Research in Science Education, Volumen 9, Número 1, 2021.</span>
+          <a href="https://pubs.sciepub.com/rse/9/1/1/index.html">Leer publicación completa</a>
+          <p>Resumen: Este artículo extiende la investigación sobre estufas mejoradas en Honduras, evaluando su impacto a largo plazo en el consumo de combustible y la calidad del aire interior. Los hallazgos destacan la eficacia de las estufas mejoradas en reducir la exposición a contaminantes del aire en interiores y en disminuir la deforestación debido a la menor necesidad de leña.</p>
+        </li>
+        <li>
+          <strong>"Effect of Improved Stoves on Wood Consumption, Particulate Matter, and Carbon Monoxide Production"</strong>
+          <span>Publicado en ResearchGate, Septiembre 2017.</span>
+          <a href="https://www.researchgate.net/publication/319454519_Effect_of_Improved_Stoves_on_Wood_Consumption_Particulate_Matter_and_Carbon_Monoxide_Production">Leer publicación completa</a>
+          <p>Resumen: Este trabajo de investigación presentado en forma de póster en la conferencia de Tropentag 2017, analiza el efecto de las estufas mejoradas en el consumo de madera, la producción de partículas y el monóxido de carbono. Los resultados indican una mejora significativa en la eficiencia del uso de la madera y una reducción en los contaminantes del aire en comparación con las estufas tradicionales.</p>
+        </li>
+      </ul>
+      <p>Para una lista completa de mis publicaciones, puedes visitar mis perfiles en <a href="https://independent.academia.edu/arboledavictor">Independent Academia</a> y <a href="https://arboledavictor.academia.edu/research">Academia.edu</a>.</p>
+    </section>
+
+    <section>
+      <h2>Logros y Proyectos</h2>
+      </section>
+
+    <section>
+      <h2>Lo Que Otros Dicen de Mí</h2>
+      </section>
+
+    <section>
+      <h2>Visión y Futuro</h2>
+      </section>
+  </div>
 </body>
 </html>
-
